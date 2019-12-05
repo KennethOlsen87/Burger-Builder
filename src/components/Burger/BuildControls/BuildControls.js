@@ -22,6 +22,7 @@ const buildControls = (props) => (
             key={ctrl.label} 
             label={ctrl.label}/>
         ))}
+        <button>ORDER NOW</button>
     </div>
 )
 
