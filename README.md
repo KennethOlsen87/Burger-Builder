@@ -3,6 +3,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+
+#### 
+ERROR-MANAGEMENT: 
+09.12.19 - Massive error is now corrected and the app is now up and running again. 
+Needed to rollback from an online-ressource and implementing "healthy" config-files
+into project. 
+
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
