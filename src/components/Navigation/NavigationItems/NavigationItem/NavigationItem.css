@@ -1,4 +1,3 @@
-/*Mobile styles */
 .NavigationItem {
     margin: 10px 0;
     box-sizing: border-box;
@@ -16,13 +15,11 @@
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
-.NavigationItem a:active {
+.NavigationItem a.active {
     color: #40A4C8;
 }
 
-/*Desktop styles */
 @media (min-width: 500px) {
-
     .NavigationItem {
         margin: 0;
         display: flex;
@@ -40,7 +37,7 @@
     
     .NavigationItem a:hover,
     .NavigationItem a:active,
-    .NavigationItem a:active {
+    .NavigationItem a.active {
         background-color: #8F5C2C;
         border-bottom: 4px solid #40A4C8;
         color: white;
