@@ -36,7 +36,8 @@ componentWillMount() {
     render() {
         return (
             <div>
-               <CheckoutSummary ingredients={this.state.ingredients}
+               <CheckoutSummary 
+                ingredients={this.state.ingredients}
                 checkoutCancelled ={this.checkoutCancelledHandler}
                 checkoutContiniued ={this.checkoutContiniuedHandler} />
             <Route 

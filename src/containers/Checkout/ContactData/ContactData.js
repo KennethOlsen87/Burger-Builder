@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-
 import Button from '../../../components/UI/Button/Button'
 import classes from './ContactData.css'
 import axios from '../../../axios-orders'
@@ -21,7 +20,7 @@ class ContactData extends Component {
         event.preventDefault()
         this.setState( { loading: true } );
         const order = {
-            ingredients: this.state.ingredients,
+            ingredients: this.props.ingredients,
             price: this.props.price,
             customer: {
                 name: 'Kenneth Olsen',
