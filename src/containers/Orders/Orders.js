@@ -24,9 +24,7 @@ class Orders extends Component {
             })
             .catch(err => {
                 this.setState({loading: false});
-            });
-            console.log('[Orders.js] CDM' + this.fetchedOrders)
-            
+            });  
     }
 
     render () {
