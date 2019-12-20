@@ -50,9 +50,6 @@ class Auth extends Component {
         }
     }
     
-
-    
-
     inputChangedHandler = (event, controlName) => {
         const updatedControls = updateObject(this.state.controls, {
             [controlName]: updateObject(this.state.controls[controlName],{
